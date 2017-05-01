@@ -1,0 +1,273 @@
+/*登录样式*/
+
+.loginlogo a img {
+    max-width: 100%;
+    width: 90px;
+    margin-bottom: 16px;
+}
+
+.select_role {
+    margin-right: 18px;
+    padding-left: 4px;
+}
+
+.login_select label {
+    font-size: 14px;
+}
+
+.verification-code {
+    width: 87px;
+    background-color: #4285f4;
+    margin-left: 56px;
+    text-align: center;
+    color: #fff;
+    vertical-align: baseline;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    width: 29%;
+    height: 50%;
+}
+
+.verification-code-width {
+    width: 234px;
+}
+
+.verification-body {
+    width: 328px;
+    height: 60px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+
+/*忘记密码*/
+
+.forgot-password-card .form-group.pmd-textfield {
+    margin-bottom: 0px;
+}
+
+.div-email {
+    margin-left: 80px;
+    text-align: center;
+    color: #fff;
+    vertical-align: baseline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 33%;
+    height: 50%;
+}
+
+.div-email a.send1 {
+    height: 26px;
+    text-decoration: none;
+    line-height: 26px;
+    padding: 2px;
+    width: 80px;
+    background: #4285f4;
+    font-family: '宋体';
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    float: left;
+    border-radius: 2px;
+    margin-left: 2px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.div-email a.send1:hover {
+    text-decoration: none;
+    background: #0f64c5;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.div-email a.send0 {
+    height: 26px;
+    text-decoration: none;
+    line-height: 26px;
+    padding: 2px;
+    width: 80px;
+    background: #4285f4;
+    font-family: '宋体';
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    float: left;
+    border-radius: 2px;
+    margin-left: 2px;
+}
+
+.div-email a.send0:hover {
+    background: #0f64c5;
+    font-family: '宋体';
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.div-email span.error {
+    height: 26px;
+    line-height: 26px;
+    padding: 2px;
+    width: 100px;
+    color: red;
+    padding-left: 20px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: '宋体';
+    /*background: url(../images/error.png) no-repeat left center;*/
+}
+
+.col-lg-3 {
+    width: 105px;
+}
+
+.col-lg-2 {
+    width: 170px;
+}
+
+
+/*captcha-input*/
+
+.captcha-input {
+    font-size: 18px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    /*bottom: 0;*/
+    width: 100%;
+    background: #1f2f46 none repeat scroll 0 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 14px;
+    padding-top: 17px;
+    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1) 0s;
+    /*margin-top: -70px;*/
+    z-index: 1;
+}
+
+.footer .pmd-card-subtitle-text {
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 1;
+    margin: 0px;
+}
+
+
+/*footer*/
+
+.pmd-sidebar~.footer {
+    padding-left: 64px;
+}
+
+.pmd-sidebar.pmd-sidebar-open~.footer {
+    padding-left: 290px;
+}
+
+.copyright-text {
+    color: #4d575d;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.copyright-text a:hover {
+    color: rgb(74, 204, 142);
+}
+
+.footer a {
+    color: #fff;
+    display: inline-block;
+}
+
+.footer .pmd-card-subtitle-text {
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 1;
+    margin: 0px;
+    color: #fff;
+}
+
+.footer .media-left {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.footer .media-left svg {
+    margin-top: 4px;
+}
+
+.footer .pmd-card-title-text a {
+    color: #fff;
+}
+
+.footer .pmd-card-subtitle-text span:hover {
+    color: rgb(74, 204, 142);
+}
+
+.footer a:hover svg path,
+.footer a:focus svg path {
+    fill: rgb(74, 204, 142);
+}
+
+.footer a:hover {
+    color: rgb(74, 204, 142);
+}
+
+.footer .list-inline {
+    line-height: 1.2;
+}
+
+.footer .download-now,
+.footer .for-support {
+    max-width: 240px;
+    padding: 0 15px;
+}
+
+.footer .download-now a>div,
+.footer .for-support a>div,
+.footer .download-now a>div svg,
+.footer .for-support a>div svg {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.footer .download-now a>div svg,
+.footer .for-support a>div svg {
+    margin-right: 10px;
+}
+
+.footer ul {
+    margin: 0;
+}
+
+.logincard {
+    margin-top: 20vh;
+    margin-bottom: 7vh;
+    min-height: 74vh;
+}
+
+.toplogo {
+    float: left;
+    display: inline-block;
+    margin-left: 20vh;
+}
+
+.navbar-header a {
+    font-family: Georgia;
+}

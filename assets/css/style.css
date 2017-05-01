@@ -1,0 +1,95 @@
+/*
+UI、UE设计：2014级杨子皓
+Contact:
+QQ:450311265 github:https://github.com/cduyzh 个人博客：https://www.cduyzh.com
+首页和尾部背景图制作、配色建议：2015级吕杭
+*/
+/*谷歌字体库 fallback */
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(http://fonts.gstatic.com/s/materialicons/v21/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/*后台样式*/
+
+.total-revenue {
+    font-size: 13px;
+}
+
+.pmd-card-custom-form {
+    overflow: hidden;
+}
+
+.pmd-card-custom-view h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pmd-card-body h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.input-group-addon {
+    width: 160px;
+    text-align: left;
+}
+
+.arer-lable {
+    width: 160px;
+    text-align: left;
+}
+
+.button-group {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+/*.pmd-card-body {
+    overflow: hidden;
+}*/
+
+.PM-nav a {
+    margin-right: 30px;
+}
+
+.trcustom th {
+    font-size: 12.8px;
+}
+
+.form-group textarea {
+    text-indent: 78px;
+}
+
+.result-table {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.result-table.table>thead>tr>th {
+    width: 33%;
+}
+
+@import "http://propeller.in/components/modal/css/modal.css";
